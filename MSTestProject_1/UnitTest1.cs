@@ -13,7 +13,7 @@ namespace MSTestProject_1
         {
             IWebDriver driver = new FirefoxDriver(".");
             driver.Navigate().GoToUrl("https://yandex.by");
-            Thread.Sleep(10000);
+            Thread.Sleep(12000);
             driver.Close();
             Assert.IsTrue(true, "Test failed.");
         }
